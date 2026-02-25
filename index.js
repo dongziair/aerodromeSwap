@@ -1,3 +1,6 @@
+import dns from 'node:dns';
+dns.setDefaultResultOrder('ipv4first');
+
 import { ethers } from 'ethers';
 import { setupWallets } from './proxyManager.js';
 import { waitForLowGas } from './gasChecker.js';
