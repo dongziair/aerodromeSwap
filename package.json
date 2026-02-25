@@ -1,0 +1,14 @@
+{
+  "name": "aerodrome-swap",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.4",
+    "socks-proxy-agent": "^8.0.5",
+    "undici": "^7.3.0"
+  }
+}
